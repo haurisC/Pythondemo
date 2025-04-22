@@ -1,0 +1,70 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "0a0dad54-5a7a-4491-835e-8def95379beb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "age 10\n",
+      "country germany\n"
+     ]
+    },
+    {
+     "ename": "TypeError",
+     "evalue": "'<' not supported between instances of 'str' and 'int'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[1], line 3\u001b[0m\n\u001b[0;32m      1\u001b[0m user_age \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mage\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[0;32m      2\u001b[0m user_country \u001b[38;5;241m=\u001b[39m \u001b[38;5;28minput\u001b[39m(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mcountry\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[1;32m----> 3\u001b[0m \u001b[38;5;28;01mif\u001b[39;00m user_age \u001b[38;5;241m<\u001b[39m \u001b[38;5;241m25\u001b[39m \u001b[38;5;129;01mand\u001b[39;00m user_country \u001b[38;5;241m==\u001b[39m \u001b[38;5;124m'\u001b[39m\u001b[38;5;124mgermany\u001b[39m\u001b[38;5;124m'\u001b[39m:\n\u001b[0;32m      4\u001b[0m     \u001b[38;5;28mprint\u001b[39m(\u001b[38;5;124m'\u001b[39m\u001b[38;5;124mgood\u001b[39m\u001b[38;5;124m'\u001b[39m)\n\u001b[0;32m      6\u001b[0m \u001b[38;5;28;01melse\u001b[39;00m:\n",
+      "\u001b[1;31mTypeError\u001b[0m: '<' not supported between instances of 'str' and 'int'"
+     ]
+    }
+   ],
+   "source": [
+    "user_age = int(input('age'))\n",
+    "user_country = input('country')\n",
+    "if user_age < 25 and user_country == 'germany':\n",
+    "    print('good')\n",
+    "\n",
+    "else:\n",
+    "    print('not good')\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3edec402-b6f2-4777-893f-22e46f264185",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
